@@ -5,18 +5,18 @@ print(sys.version)
 
 
 class Employee:
-	"""A sample Employee class"""
+# 	"""A sample Employee class"""
 
-	def _init_(self, first, last):
-		self.first = first
-		self.last = last
+ def _init_(self, first, last):
+  self.first = first
+  self.last = last
 
-	@property
-	def email(self):
-		return '{} {}@email.com'.format(self.first, self.last)
+@property
+def email(self):
+ return '{} {}@email.com'.format(self.first, self.last)
 
-	@property
-	def fullname(self):
+@property
+def fullname(self):
 		return '{} {}'.format(self.first, self.last)
 
 
